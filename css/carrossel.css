@@ -1,0 +1,124 @@
+.carousel-inner {
+  border-style: solid;
+  border-color: black;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  display: inline-block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.carousel slide {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+.carouselleftarrow {
+  font-family: Material Icons;
+  font-size: 36px;
+  position: absolute;
+  bottom: 5px;
+  content: "\e408";
+  color: black;
+}
+
+.carouselleftarrow:hover {
+  color: black;
+}
+
+.carouselrightarrow {
+  font-family: Material Icons;
+  font-size: 36px;
+  position: absolute;
+  bottom: 5px;
+  content: "\e409";
+  color: black;
+}
+
+.carouselrightarrow:hover {
+  color: black;
+}
+
+.carousel-indicators li {
+  text-indent: 0 !important;
+  width: 24px !important;
+  height: 24px !important;
+  margin: 3px !important;
+  border-radius: 50px !important;
+  bottom: 3px;
+  font: 10px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: #999999;
+  background-color: blue;
+  font-size: 14px;
+}
+
+.carousel-indicators li.active {
+  color: white;
+  background-color: black;
+}
+
+.carousel-indicators li:hover {
+  color: white;
+  background-color: black;
+}
+
+.left .carousel-control {
+  border-radius: 8px;
+  background-image: none;
+}
+
+.right .carousel-control {
+  border-radius: 8px;
+  background-image: none;
+  display: inline-flex;
+}
+
+.carousel-control.left {
+  background-image: none;
+  border-radius: 8px;
+}
+
+.carousel-control.right {
+  background-image: none;
+  border-radius: 8px;
+}
+
+.carousel-caption {
+  width: 100%;
+  top: 0;
+  padding: 8px !important;
+  text-align: center;
+  background: green;
+  color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+  height: 69px;
+  border-color: black;
+  border-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  right: 0 !important;
+  left: 0 !important;
+}
+
+.carousel-caption h3 {
+  margin: 0px;
+}
+
+.carousel-caption p {
+  margin: 0px;
+}
+
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img {
+  top: 69px;
+  position: absolute;
+}
