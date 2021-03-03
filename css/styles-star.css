@@ -517,7 +517,7 @@ footer {
     position: relative;
   }
 
-  .active::before {
+  /* .active::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -525,7 +525,7 @@ footer {
     background-color: #fff;
     left: 0;
     bottom: -3px;
-  }
+  } */
 
   .sub-headline {
     font-size: 10rem;
