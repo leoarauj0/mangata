@@ -19,7 +19,7 @@
 	    margin:0,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
-	    nav:true,
+	    nav: true,
 	    dots: true,
 	    autoplayHoverPause: false,
 	    items: 1,
