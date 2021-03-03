@@ -94,6 +94,7 @@
     padding-top: -180px;
   }
 
+
   
 }
 
@@ -145,6 +146,21 @@
     margin: 0 auto;
   }
 
+  .star-back {
+    /* background: url("../images/sobre-back.png") no-repeat right top fixed; */
+    background-image: url("../images/sobre-back.png");
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    background-size: 100%;
+    
+  }
+
+  
+  .horarios {
+    width: 70%;
+    /* max-width: 10%; */
+  }
+
   
 }
 
@@ -160,7 +176,12 @@
 
   .botao {
     max-width: 15%;
-    margin: 0 auto;
+    /* margin: 20px 0 auto; */
+    /* align-items: center; */
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   
@@ -178,16 +199,22 @@
     max-width: 50%;
     margin: 0 auto;
     padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
+  .star-back {
+    /* background: url("../images/sobre-back.png") no-repeat right top fixed; */
+    background-image: url("../images/sobre-back-mibile.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    
+  }
 
-
-  
 }
 
-.hero-texto {
-  background-image: url("../images/hero-texto-1.svg");
-}
+
 
 /* .logo {
   width: 100px;
