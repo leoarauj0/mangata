@@ -32,7 +32,28 @@
     "Liberation Mono", "Courier New", monospace;
 }
 
-@media screen and (min-width: 927px) {
+@media screen and (min-width: 900px) {
+
+  .menu {
+    width: 970px;
+    height: 66px;
+    margin: 20px auto;
+    position: relative;
+  }
+
+  .logo {
+    width: 20%;
+    max-width: 100%;
+    left: 335px;
+    padding-top: 18px;
+  }
+
+  
+}
+
+
+
+@media screen and (min-width: 927px) and (max-width: 900px) {
   .menu {
     width: 770px;
     height: 66px;
@@ -70,9 +91,104 @@
     width: 20%;
     max-width: 100%;
     left: 335px;
-    padding-top: 50px;
+    padding-top: -180px;
   }
+
+  
 }
+
+
+
+@media screen and (min-width: 768px) {
+  .menu {
+    width: 770px;
+    height: 66px;
+    margin: 20px auto;
+    position: relative;
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav li {
+    float: left;
+  }
+  nav li a {
+    display: block;
+    padding: 10px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 25px 70px 0 0;
+  }
+
+  nav li:nth-child(2) {
+    margin-right: 200px;
+  }
+
+  nav li:nth-child(4) a {
+    margin-right: 40px;
+  }
+
+  nav li:nth-child(1n + 3) a {
+    text-align: right;
+  }
+
+  .logo {
+    width: 20%;
+    max-width: 100%;
+    left: 335px;
+    padding-top: 0px;
+  }
+
+  .botao {
+    max-width: 55%;
+    margin: 0 auto;
+  }
+
+  
+}
+
+
+
+@media screen and (min-width: 725px) {
+  .logo {
+    width: 20%;
+    max-width: 100%;
+    left: 335px;
+    padding-top: 0px;
+  }
+
+  .botao {
+    max-width: 15%;
+    margin: 0 auto;
+  }
+
+  
+}
+
+@media screen and (min-width: 320px) and (max-width: 725px) {
+  .logo {
+    width: 40%;
+    max-width: 100%;
+    left: 335px;
+    padding-top: 0px;
+  }
+
+  .botao {
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+
+
+  
+}
+
+.hero-texto {
+  background-image: url("../images/hero-texto-1.svg");
+}
+
 /* .logo {
   width: 100px;
   height: 64px;
