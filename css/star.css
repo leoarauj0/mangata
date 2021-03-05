@@ -239,8 +239,13 @@
   z-index: 2;
 
 }
-.lol3 {
-  position: absolute;
-  z-index: 2;
 
+footer {
+  background-image: url(../images/footer-back.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  /* width: 100vw; */
+  height: 80vh;
+  background-size: 100%;
+  /* position: absolute; */
 }
