@@ -12,6 +12,12 @@
           justify-content: center;
 } */
 
+.bodydocarrosseldeimagens {
+  /* margin-top: -50px; */
+}
+
+
+
 @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateX(0);

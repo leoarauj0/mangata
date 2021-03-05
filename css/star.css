@@ -152,6 +152,8 @@
     background-repeat: no-repeat;
     /* width: 100vw; */
     background-size: 100%;
+    margin-top: -55px;
+
     
   }
 
@@ -175,7 +177,7 @@
   }
 
   .botao {
-    max-width: 15%;
+    max-width: 17%;
     /* margin: 20px 0 auto; */
     /* align-items: center; */
     padding-top: 20px;
@@ -224,3 +226,21 @@
   position: absolute;
   left: 335px;
 } */
+
+
+.lol {
+  position: relative;
+  z-index: -1;
+  /* margin-top: -50px; */
+}
+
+.lol2 {
+  /* position: relative; */
+  z-index: 2;
+
+}
+.lol3 {
+  position: absolute;
+  z-index: 2;
+
+}
