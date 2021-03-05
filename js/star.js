@@ -26,7 +26,7 @@ sr.reveal('.animate-right', {
     origin: 'right',
     duration: 1000,
     distance: '25rem',
-    delay: 600
+    delay: 600,
 } );
 
 sr.reveal('.animate-top', {

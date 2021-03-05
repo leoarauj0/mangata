@@ -230,7 +230,7 @@
 
 .lol {
   position: relative;
-  z-index: -1;
+  z-index: -2;
   /* margin-top: -50px; */
 }
 
@@ -238,6 +238,12 @@
   /* position: relative; */
   z-index: 2;
 
+}
+
+.lol3 {
+  position: relative;
+  z-index: 2;
+  margin-top: -250px;
 }
 
 footer {
