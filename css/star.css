@@ -206,7 +206,7 @@
     background-repeat: no-repeat;
     background-color: black;
     /* width: 100vw; */
-    height:90vh;
+    height: 100%;
     background-size: 110%;
     /* display: flex; */
     /* position: absolute; */
@@ -263,10 +263,15 @@
     background-repeat: no-repeat;
     background-color: black;
     /* width: 100vw; */
-    height: 90vh;
+    height: 100%;
     background-size: 100%;
     /* display: flex; */
     /* position: absolute; */
+  }
+
+  
+  .empresas {
+    margin-top: 30px;
   }
 
 }
