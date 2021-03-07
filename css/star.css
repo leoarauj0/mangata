@@ -51,8 +51,8 @@
   
 }
 
-
-
+/* 
+============================================================================================================ */
 @media screen and (min-width: 927px) and (max-width: 900px) {
   .menu {
     width: 770px;
@@ -99,7 +99,8 @@
 }
 
 
-
+/* 
+============================================================================================================ */
 @media screen and (min-width: 768px) {
   .menu {
     width: 770px;
@@ -157,6 +158,19 @@
     
   }
 
+  .footer-back {
+    /* background: url("../images/sobre-back.png") no-repeat right top fixed; */
+    background-image: url("../images/footer-back.png");
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    background-size: 100%;
+    /* margin-top: -55px; */
+
+    
+  }
+
+  
+
   
   .horarios {
     width: 70%;
@@ -167,7 +181,8 @@
 }
 
 
-
+/* 
+============================================================================================================ */
 @media screen and (min-width: 725px) {
   .logo {
     width: 20%;
@@ -186,9 +201,25 @@
     margin-right: auto;
   }
 
+  footer {
+    background: url(../images/footer-back.png) center no-repeat;
+    background-repeat: no-repeat;
+    background-color: black;
+    /* width: 100vw; */
+    height:90vh;
+    background-size: 110%;
+    /* display: flex; */
+    /* position: absolute; */
+  }
+
+  .saiba-mais-botao {
+    max-width: 40%;
+  }
+
   
 }
-
+/* 
+============================================================================================================ */
 @media screen and (min-width: 320px) and (max-width: 725px) {
   .logo {
     width: 40%;
@@ -210,8 +241,32 @@
     /* background: url("../images/sobre-back.png") no-repeat right top fixed; */
     background-image: url("../images/sobre-back-mibile.png");
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 100%;
+    margin-top: -57px;
     
+  }
+/* 
+  .footer-back {
+    background: url("../images/sobre-back.png") no-repeat right top fixed; */
+    /* background-image: url("../images/footer-back-mobile.png"); */
+    /* background-repeat: no-repeat; */
+    /* width: 100vw; */
+    /* background-size: 100%; */
+    /* margin-top: -55px;
+
+    
+  } */
+
+  footer {
+    /* background-image: url(../images/footer-back.png) center no-repeat; */
+    background: url(../images/footer-back-mobile.png) center no-repeat;
+    background-repeat: no-repeat;
+    background-color: black;
+    /* width: 100vw; */
+    height: 90vh;
+    background-size: 100%;
+    /* display: flex; */
+    /* position: absolute; */
   }
 
 }
@@ -230,15 +285,20 @@
 
 .lol {
   position: relative;
-  z-index: -2;
+  /* z-index: -2; */
   /* margin-top: -50px; */
+  /* animation: z 0.1s forwards;
+  animation-delay: 0.1s; */
 }
 
-.lol2 {
+/* .lol2 { */
   /* position: relative; */
-  z-index: 2;
+  /* z-index: 3;
 
-}
+  animation: z 1s forwards;
+  animation-delay: 3.1s; */
+
+/* } */
 
 /* .lol3 {
   position: relative;
@@ -247,20 +307,18 @@
 } */
 
 
-footer {
-  /* background-image: url(../images/footer-back.png) center no-repeat; */
-  background: url(../images/footer-back.png) center no-repeat;
-  background-repeat: no-repeat;
-  background-color: black;
-  /* width: 100vw; */
-  height: 100vh;
-  background-size: 120%;
-  /* display: flex; */
-  /* position: absolute; */
+
+
+.cardapio {
+  max-width: 30%;
+  margin-top: -70px;
+
 }
 
 .fale-conosco {
   max-width: 60%;
+  margin-top: 40px;
+
 }
 
 .empresas ul {
@@ -279,3 +337,32 @@ footer {
   justify-content: center; */
 }
 
+.parallax {
+  /* The image used */
+  background-image: url("../images/tasteful-recipes.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* 
+@keyframes z {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(3rem);
+  }
+} */

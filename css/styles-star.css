@@ -306,6 +306,7 @@ nav {
 
 .restaurant-info {
   text-align: center;
+  margin-top: 20px;
 }
 
 .restaurant-description {
@@ -377,8 +378,9 @@ nav {
 
 /*Footer*/
 footer {
-  padding: 7.9rem 0;
-  background-color: #121212;
+  /* padding: 7.9rem 0; */
+  margin-top: -2px;
+  background-color: #000000;
   color: #fff;
   text-align: center;
   position: relative;
@@ -387,7 +389,7 @@ footer {
 .back-to-top {
   width: 7rem;
   height: 7rem;
-  background-color: #121212;
+  background-color: #000000;
   position: absolute;
   top: -3rem;
   left: 50%;
@@ -438,7 +440,7 @@ footer {
   font-size: 3rem;
   color: #fff;
   padding: 0.8rem 2rem;
-  opacity: 0.5;
+  opacity: 1;
   transition: color 0.5s;
 }
 
@@ -649,5 +651,18 @@ footer {
   100% {
     opacity: 0;
     transform: translateY(-1rem);
+  }
+}
+
+@keyframes z {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateZ(-1rem);
   }
 }
