@@ -216,6 +216,16 @@
     max-width: 40%;
   }
 
+
+  .cobrir {
+    margin-top: -80px;
+    margin-left: 30%;
+    z-index: 99999;
+    width: 30%;
+    position: absolute;
+  }
+  
+
   
 }
 /* 
@@ -274,6 +284,26 @@
     margin-top: 30px;
   }
 
+
+  
+  .cobrir {
+    margin-top: -38px;
+    z-index: 99999;
+    position: absolute;
+    height: 9%;
+  }
+
+  .star-sobre {
+    padding-top: 13px;
+  }
+
+  /* .lol2 {
+    z-index: 99999;
+    width: 30%;
+    position: absolute;
+  
+  } */
+
 }
 
 
@@ -296,14 +326,7 @@
   animation-delay: 0.1s; */
 }
 
-/* .lol2 { */
-  /* position: relative; */
-  /* z-index: 3;
 
-  animation: z 1s forwards;
-  animation-delay: 3.1s; */
-
-/* } */
 
 /* .lol3 {
   position: relative;
@@ -383,8 +406,8 @@
   width: 90%;
   height: 90vh;
   position: relative;
-  margin: 3% auto;
-  padding: 15px 20px;
+  margin: 2% auto;
+  /* padding: 010px; */
   background: #fff;
 }
 
@@ -393,14 +416,18 @@
   z-index: 999;
   width: 30px;
   right: 4%;
-  top: 20px;
+  top: 10px;
   text-align: center;
   line-height: 30px;
   margin-top: 5px;
-  background: #ff4545;
+  background: var(--orange);
   border-radius: 50%;
   font-size: 16px;
-  color: #8d0000;
+  color: #fff;
+}
+
+.star-galeria {
+  padding: 0 15px;
 }
 
 

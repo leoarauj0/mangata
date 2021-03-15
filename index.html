@@ -51,19 +51,19 @@
                     <ul class="nav-list">
                                         
                         <li class="nav-item">
-                            <a href="#" class="nav-link">O RESTAURANTE</a>
+                            <a href="#sobre" class="nav-link">O RESTAURANTE</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">CARDÁPIO</a>
+                            <a href="#cardapio" class="nav-link">CARDÁPIO</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">RESERVAS</a>
+                            <a href="#horarios" class="nav-link">HORARIOS</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">FALE CONOSCO</a>
+                            <a href="#contato" class="nav-link">FALE CONOSCO</a>
                         </li>
 
                     </ul>
@@ -182,10 +182,10 @@
 <div w3-include-html="carrossel-insta.html"></div>
 
 <!-- SOBRE -->
-<div w3-include-html="sobre.html"></div>
+<div id="sobre" w3-include-html="sobre.html"></div>
 
 <!-- =============================================================================================== -->
-<section class="parallax between">
+<section id="cardapio" class="parallax between">
     <div class="container">
         <div class="global-headline">
             <div class="animate-top">
@@ -227,45 +227,12 @@
   <!-- ==================================================================================================================== 
     MODAL -->
     <div class="containar">
-            <div id="abrirModal" class="star-modal">
-                    <a href="#fechar" title="Fechar" class="fechar">x</a>
-                    <div class="tz-gallery">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-4">
-                                <a class="lightbox" href="images/cardapio/bebidas/1.png">
-                                    <img src="images/cardapio/bebidas/1.png" alt="Traffic">
-                                </a>
-                            </div>
-                            <div class="col-sm-12 col-md-2">
-                                <a class="lightbox" href="images/cardapio/bebidas/hero.png">
-                                    <img src="images/cardapio/bebidas/hero.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-6 col-sm-6 col-md-2">
-                                <a class="lightbox" href="images/cardapio/bebidas/hero.png">
-                                    <img src="images/cardapio/bebidas/hero.png" alt="Park">
-                                </a>
-                            </div>
-                            <div class="col-6 col-sm-6 col-md-2">
-                                <a class="lightbox" href="images/cardapio/bebidas/hero.png">
-                                    <img src="images/cardapio/bebidas/hero.png" alt="Tunnel">
-                                </a>
-                            </div>
-                            
-                            <div class="col-6 col-sm-6 col-md-2">
-                                <a class="lightbox" href="images/cardapio/bebidas/hero.png">
-                                    <img src="images/cardapio/bebidas/hero.png" alt="Coast">
-                                </a>
-                            </div> 
-                            <div class="col-6 col-sm-6 col-md-1">
-                                <a class="lightbox" href="images/cardapio/bebidas/hero.png">
-                                    <img src="images/cardapio/bebidas/hero.png" alt="Rails">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-    </div>
+        <div id="abrirModal" class="star-modal">
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <div w3-include-html="modais/bebidas.html"></div>
+               
+        </div>
+      </div>
 
 
   <!-- ==================================================================================================================== -->
@@ -316,10 +283,10 @@
   <!-- ============================================================================================================ -->
 
 <!-- HORARIOS -->
-<div w3-include-html="horarios.html"></div>
+<div id="horarios" w3-include-html="horarios.html"></div>
 
 <!-- FOOTER -->
-<div w3-include-html="footer.html"></div>
+<div id="contato" w3-include-html="footer.html"></div>
 
 
 
