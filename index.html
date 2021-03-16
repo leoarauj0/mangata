@@ -28,8 +28,8 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css"> -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />.
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />. -->
         <link rel="stylesheet" href="css/fluid-gallery.css">
 
         
@@ -231,7 +231,47 @@
     <div class="containar">
         <div id="abrirModal" class="star-modal">
             <a href="#fechar" title="Fechar" class="fechar">x</a>
-            <div w3-include-html="modais/bebidas.html"></div>
+            <!-- <div w3-include-html="modais/bebidas.html"></div> -->
+
+            <div class="tz-gallery">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="images/drinks/1.png">
+                            <img class="" src="images/drinks/1.png" alt="Traffic">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                      <div class="row star-galeria">
+                                <div class="col-6 col-sm-6 col-md-6">
+                                    <a class="lightbox" href="images/drinks/aperol.png">
+                                        <img src="images/drinks/aperol2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6">
+                                  <a class="lightbox" href="images/drinks/caipifruta1.png">
+                                      <img src="images/drinks/caipifruta12.png" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6">
+                                  <a class="lightbox" href="images/drinks/caipifruta2.png">
+                                      <img src="images/drinks/caipifruta22.png" alt="">
+                                  </a>
+                                </div>
+                                
+                                <div class="col-6 col-sm-6 col-md-6">
+                                  <a class="lightbox" href="images/drinks/aperol.png">
+                                      <img src="images/drinks/aperol2.png" alt="">
+                                  </a>
+                                </div> 
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                      <a class="lightbox" href="images/drinks/caipifruta2.png">
+                          <img src="images/drinks/caipifruta22.png" alt="">
+                      </a>
+                    </div>
+                </div>
+              </div>
                
         </div>
       </div>
@@ -306,7 +346,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
 <script>
-    baguetteBox.run('.baguetteBoxOne');
+    baguetteBox.run('.tz-gallery');
 </script>
 
 <!-- <script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialHashtagScript"));</script> -->
